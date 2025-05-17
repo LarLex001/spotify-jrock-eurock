@@ -43,17 +43,17 @@ This project explores musical differences between European and Japanese rock mus
 
   1. **Collecting and organising data:**
 	  At this stage, three scripts are executed sequentially, which:
-	  1. *gen_data:* extracts only the required performers from all datasets, divides them into groups and creates filtered files
-	  2. *merge_data:* unifies all the necessary columns and brings all the data to a single structure, combining them
-	  3. *filled_data:* fills in certain data, removes duplicates and saves the dataset
+	  1. [*gen_data:*](src/scrapped%20data/gen_data.py) extracts only the required performers from all datasets, divides them into groups and creates filtered files
+	  2. [*merge_data:*](src/scrapped%20data/merge_data.py) unifies all the necessary columns and brings all the data to a single structure, combining them
+	  3. [*filled_data:*](src/scrapped%20data/filled_data.py) fills in certain data, removes duplicates and saves the dataset
 2. **Data preparation and cleaning:**
-	*prepeared_data:*  data is checked, cleaned and brought into a convenient form. As a result of running this notebook, two datasets are created: 
+	[*prepeared_data:*](notebooks/prepared_data.ipynb) data is checked, cleaned and brought into a convenient form. As a result of running this notebook, two datasets are created: 
 	- complete one
 	- for analysis (containing a limited number of songs by artists)
 3. **Data analytics and ML:**
-	*analysis_data:* includes descriptive data analysis and data visualisation. As well as clustering and classification
+	[*analysis_data:*](notebooks/analysis_data.ipynb) includes descriptive data analysis and data visualisation. As well as clustering and classification
 4. **Use of the created model:**
-	*user_predict:* anyone can enter certain features and try to classify a rock song by region
+	[*user_predict:*](src/classification model/user_predict.py) anyone can enter certain features and try to classify a rock song by region
 
 ## 📁 Project Structure
 
