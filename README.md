@@ -53,7 +53,7 @@ This project explores musical differences between European and Japanese rock mus
 3. **Data analytics and ML:**
 	[*analysis_data:*](notebooks/analysis_data.ipynb) includes descriptive data analysis and data visualisation. As well as clustering and classification
 4. **Use of the created model:**
-	[*user_predict:*](src/classification model/user_predict.py) anyone can enter certain features and try to classify a rock song by region
+	[*user_predict:*](src/classification%20model/user_predict.py) anyone can enter certain features and try to classify a rock song by region
 
 ## 📁 Project Structure
 
