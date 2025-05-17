@@ -15,14 +15,14 @@ This project explores musical differences between European and Japanese rock mus
 - **Data Collection**: Separate datasets from Kaggle are used, which have audio features of rock songs from different regions (since the Spotify [changed the API policy](https://developer.spotify.com/blog/2024-11-27-changes-to-the-web-api)) and the Spotify API to supplement track information
 - **Data Preprocessing**: Cleaning and standardizing the dataset
 - **Data analysis and visualisation:** Investigates various musical aspects including:
-  - Audio characteristics (energy, valence, loudness, etc.)
-  - Musical structure (Instrumentalness, Speechiness, etc.)
-  - Trends in popularity
-  - Song duration and key
-  - Distribution by genre
+	- Audio characteristics (energy, valence, loudness, etc.)
+	- Musical structure (Instrumentalness, Speechiness, etc.)
+	- Trends in popularity
+	- Song duration and key
+	- Distribution by genre
 - **Machine learning:**
-  - Cluster analysis to identify distinct musical patterns
-  - Classification model to predict the origin of tracks (Europe/Japan)
+	- Cluster analysis to identify distinct musical patterns
+	- Classification model to predict the origin of tracks (Europe/Japan)
 
 ## 📈 Key Findings
 
