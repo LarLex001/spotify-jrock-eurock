@@ -82,7 +82,7 @@ spotify-jrock-eurock/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/spotify-jrock-eurock.git
+git clone https://github.com/LarLex001/spotify-jrock-eurock.git
 ```
 
 2. Install required packages:
