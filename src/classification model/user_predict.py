@@ -22,7 +22,7 @@ def load_model():
 def get_user_features(features):
     user_input = {}
     
-    print("\nEnter values ​​for the following attributes (from 0 to 1, for tempo from 50 to 200, for duration from 120000 to 300000):")
+    print("\nEnter values ​​for the following attributes (from 0 to 1, for tempo from 50 to 200, for duration from 0 to 1000):")
     
     for feature in features:
         valid_input = False
@@ -35,11 +35,11 @@ def get_user_features(features):
                     else:
                         print("The value must be between 50 and 200.")
                 elif feature == 'Duration':
-                    value = float(input(f"{feature} (120000-300000 milliseconds): "))
-                    if 120000 <= value <= 300000:
+                    value = float(input(f"{feature} (0-1000 seconds): "))
+                    if 0 <= value <= 1000:
                         valid_input = True
                     else:
-                        print("The value should be from 120000 to 300000 milliseconds (2-5 minutes).")
+                        print("The value should be from 0 to 1000 seconds.")
                 elif feature == 'Loudness':
                     value = float(input(f"{feature} (-60 and 0 dB): "))
                     if -60 <= value <= 0:

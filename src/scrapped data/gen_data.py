@@ -118,7 +118,7 @@ artists_list_europe = [
 artists_list_japan = [
     "Ling tosite sigure", "Sayuri", "SID", "ASIAN KUNG-FU GENERATION", "THE ORAL CIGARETTES", 
     "KANA-BOON", "MY FIRST STORY", "WagakkiBand", "FLOW", "Aimer",
-    "LiSA", "YOASOBI"
+    "LiSA", "ONE OK ROCK"
 ]
 
 artist_columns = ["artists", "artist_name", "track_artist"]

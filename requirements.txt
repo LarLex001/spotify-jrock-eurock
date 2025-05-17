@@ -1,5 +1,11 @@
 pandas
+numpy
+matplotlib
+seaborn
+tabulate
+joblib
+scikit-learn
+xgboost
 requests
 tqdm
-numpy
 python-dotenv
